@@ -20,16 +20,42 @@
         border: 8px solid rgb(39, 1, 41);
         border-radius: 19%;
     }
-   div{
+    div{
     height: 200px;
     background-color: blue;
     border: 2px solid red;
     color: white;
-   }
-   #Contenedor1{
+    display: inline;
+}
+#Contenedor1{
     width: 600px;
     height: 100px;
     border: 2px solid rgb(5, 233, 5);
     background-color: black;
-    
-   }
+    }
+li{
+    color:rgb(202, 13, 13);
+}
+.Item{
+    color:rgb(52, 52, 231);
+}
+#Nombre4{
+    font-size: 24px;
+    color: rgb(230, 128, 179);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+}
+#Nombre2{
+    color: rgb(126, 185, 126);
+    font-size: 32px;
+    font-family:sans-serif;
+    text-align:center;
+}
+.Caja1{
+    width: 200px;
+    height: 100px;
+    border: 2px solid rgb(5, 233, 5);
+    background-color: black;
+    display: inline-block;
+    display: none;
+}
